@@ -1,0 +1,57 @@
+.quality__section{
+    background: transparent linear-gradient(114deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    .testimonial__titles{
+        padding:70px 0px 29px 0px;
+        font: normal normal 800 50px/49px roboto, sans-serif;
+        letter-spacing: 0px;
+        color: #fff;
+        font-weight:800;
+        .text__wrapper{
+            padding: 30px 0px 30px 0px;
+            h3{
+                font-size:21px;
+                color:white;
+                padding-bottom:30px;
+            }
+            .bold__text{
+                font-weight:800;
+            }
+        }
+    }
+    .schedule__btn{
+        border:none;
+        border-radius:100px;
+        color:#fff;
+        background:hsla(145, 71%, 47%, 1);
+        font-family: roboto,sans-serif;
+        font-size: 24px;
+        font-weight:bold;
+        margin-bottom:81px;
+        box-shadow: 0px 8px 8px #23CE6B80;
+        padding:23px 42px;
+        
+    }
+
+}
+.main__title{
+    font: normal normal 800 50px/49px Gilroy;
+}
+
+@media screen and (max-width: 480px){
+    .quality__section{
+        margin-right: -13px;
+        .testimonial__titles{
+            .text__wrapper{
+                text-align: left;
+                h3{      margin-left: 32px;
+                    margin-right: 32px;
+                    text-align: center;}
+            }
+        }
+        .schedule__btn{
+            padding:10px 35px;
+        }
+}
+    
+}

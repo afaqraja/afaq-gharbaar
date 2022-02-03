@@ -1,0 +1,123 @@
+.testimonials__section{
+    background-image: url('../../assets/images/mcDonaldsbg.png');
+    background-position: center right;
+    background-size: 100% 41%;
+    .section__wrapper{
+        .bottom__titles{
+            color:#fff;
+            padding-bottom: 58px;
+        }
+        padding-top:45px;
+
+        .cards__Wrapper{
+            padding-top:44px;
+            img{
+                width:175px;
+                height: 175px;
+                
+    margin-bottom: 24px;
+
+            }
+            .card1{
+                background:#23CE6B;
+                padding-top:46px;
+             
+            }
+            .card2{
+                background:#08083D;
+                padding-top:46px;
+             
+            }
+            .card3{
+                background:#6184D8;
+                padding-top:46px;
+             
+            }
+            .card4{
+                background:#23CE6B;
+                padding-top:46px;
+           
+            }
+            .card5{
+                background:#6184D8;
+                padding-top:46px;
+             
+            }
+            .card__desc{
+                p{
+                    color:#fff;
+                }
+            }
+        }
+        .testimonial__titles{
+            h1{
+                text-align: center;
+                font: normal normal 800 roboto;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                font-size:24px;
+                font-weight: bolder;
+            }
+            .main__title{
+                font-size:50px;
+            }
+            
+        }
+    }
+
+}
+.cards__Wrapper .col-lg-2{
+    width: 20%;
+}
+
+@media screen and (max-width: 480px){
+    .testimonials__section{
+        .section__wrapper{
+            .cards__Wrapper{
+                .card1{
+                    width:100%;
+                }
+                .card2{
+                    width:100%;
+                }
+                .card3{
+                    width:100%;
+                }
+                .card4{
+                    width:100%;
+                }
+                .card5{
+                    width:100%;
+                }
+               .card__desc {
+p{
+
+    padding: 0px 34px;
+
+}
+                }
+            }
+        }
+    }
+}
+.blockquote:after {
+    content: "“";
+    font-size: 129px;
+    color: #ffffff;
+    position: relative;
+    font-family: sans-serif;
+    top: 56px;
+    line-height: 0;
+}
+@media screen and (max-width: 480px) {
+    .blockquote:after {
+        content: "“";
+        font-size: 129px;
+        color: #ffffff;
+        position: relative;
+        font-family: sans-serif;
+        top: 56px;
+        line-height: 0;
+    }
+    
+}

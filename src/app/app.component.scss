@@ -1,0 +1,227 @@
+
+.jumbotron{
+    margin-top:58px;
+    background-image: url('../assets/images/jumbotron.svg');
+    background-repeat: no-repeat;
+    color:#ffffff;
+    width:100%;
+    padding: 0 0 70px;
+    .wrapper{
+        padding-top:113px;
+        padding-left: 138px;
+        h1{
+            font-size: 35px !important;
+            line-height: 42px !important;
+            font-weight: bolder !important;
+            font: normal normal 800 50px/65px roboto, sans-serif;
+           span{
+            background-color: #6184D8;
+            padding: 0px 10px;
+            width: 204px;
+            font-size: 32px;
+            font-weight: 900;
+            margin-top: 29px;
+           }
+        }
+        .description__text{
+            margin-top:36px;
+        }
+    }
+    p{
+        margin-bottom:0;
+        font-size:19px;
+    }
+    .franchisesbtn{
+        background: #23CE6B;
+        box-shadow: 0px 8px 8px #23ce6b80;
+        border-radius: 50px;
+        font-family: roboto, arial, helvetica;
+        color: #fff;
+        font-size: 24px;
+        padding: 15px 30px;
+        font-weight: bolder;
+        border: none;
+        margin: 72px 0px 0px 0px;
+    }
+    .image__wrapper{
+       margin: 127px auto 0px;
+    }
+}
+
+.checklist__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checklist__items{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.checklist__item__body{
+    display:flex;
+    flex-direction:row;
+}
+.carousal__container__title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.company__into{
+    display:grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    .left__panel{
+        display:flex;
+        flex-direction: column;
+    }
+    .right__panel{
+        display:flex;
+        flex-direction:row;
+        align-items: center;   
+        .left__img{
+            z-index:1;
+        }
+        .right__img{
+            z-index:2;
+        }     
+    }
+}
+.check__list__section{
+    background-image: url('./../assets/images/backgroundImage.png');
+    .section__title{
+        font: normal normal 800 50px/40px Gilroy;
+        letter-spacing: 0px;
+        color: #08083D;
+        opacity: 1; 
+        padding:70px 0px 58px 0px;
+    }
+    .last_child{
+        padding-bottom:58px;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        h3{
+            margin-left:20px;
+            font: normal normal bold 24px/49px Roboto;
+            letter-spacing: 0px;
+            color: #08083D;
+            opacity: 1;
+        }
+    }
+}
+.first__title span{
+    background: #6184D7;
+    width: 162px;
+    font-size: 25px;
+    margin-left: 3px;
+    padding: 5px;
+}
+@media screen and (max-width: 480px){
+    .jumbotron{
+        margin-right: -13px;
+  
+        .first__title{
+            padding-top:60px;
+
+            span{
+                margin: 0 auto;
+                background: #6184D8 0% 0% no-repeat padding-box;
+                width: 305px;
+                font: normal normal 800 50px/62px Gilroy;
+            
+            }
+        }
+
+        // height:786px;
+        // background-image: url('../assets/images/jumbotron.svg');
+        background-image:url('../assets/images/mobilehome.png');
+        .wrapper{
+                margin-top: 68px;
+                padding:0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            h1{
+                font-size: 32px;
+                line-height: 33px;
+                text-align: center;
+                font: normal normal 800 32px/40px Gilroy;
+            }
+            .description__text{
+                margin-top: 34px;
+                text-align: center;
+            }
+            p{
+                font-size:18px;
+            }
+        }
+        
+        .franchisesbtn{
+            margin:67px 0px 67px 0px;
+            padding:10px 29px;
+        }
+        .mobile__image{
+            padding-bottom: 32px;;
+        }
+    }
+    .check__list__section{
+        background-image: url('../assets/images/checklistmobile.png');
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: -13px;
+        // .container{
+            
+        // }
+        .section__title{
+            color:#fff;
+            text-align:center;
+            // margin:32px 0px 28px 0px;
+            padding:0px;
+            font-size:32px;
+            font-family: roboto, sans-serif;
+        }
+        .section__title__first{
+            padding-top:32px;
+        }
+        .last_child{
+            padding-bottom:30px;
+        }
+        .arrow{
+            h3{
+                color:#fff;
+                font-size:18px;
+            }
+        }
+    }
+    .mobile__services{
+        .body__wrapper{
+            h1{
+                font: normal normal 800 18px/22px roboto,sans-serif;
+                font-weight:800;
+                margin:33px 0px 23px 0px;
+                letter-spacing: 0px;
+                color: #08083D;
+                opacity: 1;
+            }
+            p{
+                // font-size:14px;
+                padding-top:17px;
+                color: #08083D;
+                font: normal normal normal 14px/24px Roboto;
+                letter-spacing: 0px;
+                color: #08083D;
+                span{
+                    font-weight: 800;
+                }
+            }
+            .body{
+                text-align:center;
+            }
+        }
+    }
+}

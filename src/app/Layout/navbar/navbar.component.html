@@ -1,0 +1,41 @@
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" id="navbar">
+   
+        <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-target = "#navbarNav"
+        data-bs-toggle="collapse"
+        aria-controls = "navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle Navbar"
+        (click)="showNavbar()"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-spacearound" [ngClass]="{ 'show': navbarOpen }" id="navbarNav">
+            <a class="navbar-brand">
+              Gharbaar
+            </a>
+            <!-- <div class="mx-auto list__container"> -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Franchise List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Franchise Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-btn">Contact</a>
+                    </li>
+                  
+                </ul>
+               
+                  
+            </div>
+    
+</nav>

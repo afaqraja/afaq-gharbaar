@@ -1,0 +1,195 @@
+<div class="container">
+  <app-navbar></app-navbar>
+</div>
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col col-xs-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="wrapper">
+          <div class="first__title">
+            <h1>
+              Lorem ipsum dolor sit amet consectetur  
+            </h1>
+            <span class="d-block ">Lorem ipsum</span>
+          </div>
+      
+          <div class="description__text">
+            <p>
+              Lorem ipsum dolor sit amet,
+            </p>
+            <p>
+              consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </div>
+         
+         
+            <button class="franchisesbtn">See the best franchises&nbsp;<img src="assets/icons/Polygon6.png" /></button>
+        
+          <div class="mobile__image" *ngIf="isMobile">
+            <div>
+              <img src="assets/images/homemobile.png"/>
+            </div>
+          </div>
+          </div>
+      </div>
+      <div *ngIf="!isMobile" class="col col-xs-6 col-md-6 col-lg-6 col-xl-6">
+        <div  class="image__wrapper">
+          <img src = "assets/images/jumboImage.png" width="653px" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- <div class="container main__jumbotron__wrapper">
+    <div>
+     
+      <div class="color__changing__div">
+        <h1>Lorem Ipsum</h1>
+      </div>
+      <div class="lorem__desc">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sid do euismod.</p>
+      </div>
+      <div>
+        <button class="jumbo__btn">See the best franchises&nbsp; <span><img src="assets/icons/Polygon6.png"></span></button>
+      </div>
+    </div>
+    <div class="showcase">
+    </div>
+  </div> -->
+</div>
+<section class="mobile__services"  data-aos="fade-right" *ngIf="isMobile">
+  <div class="row body__wrapper">
+  <div class="col col-xs-12 d-flex justify-content-center align-items-center">
+    <h1>Lorem Ipsum Dolor</h1>
+  </div>
+  <div class="row">
+      <div class="col col-xs-4 offset-1">
+        <div class="body">
+          <img src="assets/images/phone.png" />
+          <p>Why location is only <span>part</span> of the equation</p>
+        </div>
+    </div>
+    <div class="col col-xs-6">
+      <div class="body">
+        <img src="assets/images/w.png" />
+        <p>How you can expand and make a <span>fortune</span></p>
+      </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col col-xs-4 offset-1">
+      <div class="body">
+        <img src="assets/images/business.png" />
+        <p>Why business experience is <span>NOT</span> required</p>
+      </div>
+  </div>
+  <div class="col col-xs-4">
+    <div class="body">
+      <img src="assets/images/time.png" />
+      <p>Why <span>NOW</span> is the time to take action</p>
+    </div>
+</div>
+</div>
+  </div>
+</section>
+
+
+<section  data-aos="fade-right" class="check__list__section">
+  <div *ngIf="!isMobile" class="d-flex justify-content-center align-items-center" style="height:100px">
+    <h1 class="section__title">Lorem Ipsum Dolor</h1>
+</div>
+
+<div *ngIf="isMobile" class="d-flex justify-content-center align-items-center">
+  <h1 class="section__title__first">Lorem</h1>
+</div>
+<div *ngIf="isMobile" class="d-flex justify-content-center align-items-center">
+  <h1 class="section__title">Ipsum Dolor</h1>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col col-md-8 offset-md-3 col-lg-8 offset-lg-3 col-xl-8 offset-xl-3">
+        <div class="arrow">
+          <span><img src="assets/icons/check.png" /></span>
+          <h3>Lorem ipsum dolor sit amet.</h3>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Aliquam tincidunt mauris eu risus.</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Morbi in sem quis dui placerat ornare, Pellentesque.</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Nunc dignissim risus id metus. </h3>
+      </div>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Integer vitae libero ac risus egestas placerat.</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Vivamus vestibulum ntulla nec ante. </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Praesent placerat risus quis eros.  </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="row last_child">
+    <div class="col col-md-8 offset-md-3">
+      <div class="arrow">
+        <span><img src="assets/icons/check.png" /></span>
+        <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h3>
+      </div>
+    </div>
+  </div>
+  </div>
+
+   
+</section>
+<app-services  data-aos="fade-right" [isMobile]="isMobile" ></app-services>
+<app-products  data-aos="fade-right"></app-products>
+<app-steps  data-aos="fade-right" [isMobile]="isMobile"></app-steps>
+<app-schedulecall  data-aos="fade-right" ></app-schedulecall>
+<app-testimonials data-aos="fade-right" [isMobile]="isMobile"></app-testimonials>
+<app-quality-assurance  data-aos="fade-right" [isMobile]="isMobile"></app-quality-assurance>
+<app-get-schedule  data-aos="fade-right" [isMobile]="isMobile"></app-get-schedule>
+
+
+
+<app-footer  data-aos="fade-left"> </app-footer>

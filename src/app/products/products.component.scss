@@ -1,0 +1,46 @@
+.products__section{
+    .inner__text__box{ 
+        padding:70px 0px 70px 0px;
+        h1{
+            text-align: center;
+            font: normal normal 800 50px/75px Gilroy;
+            letter-spacing: 0px;
+            color: #08083D;
+            opacity: 1;
+        }
+    }
+    .product__body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width:220px;
+            height:220px;
+        }
+        h3{ 
+
+            font: normal normal bold 27px/49px Roboto;
+            letter-spacing: 0px;
+            color: #08083D;
+            opacity: 1;
+            font-size:24px;
+            padding-top:28px;
+        }
+        p{
+            font: normal normal normal 21px/29px Roboto;
+            letter-spacing: 0px;
+            color: #08083D;
+            opacity: 1;
+        }
+        
+    }
+
+}
+
+@media screen and (max-width: 480px){
+   
+    .products__section .inner__text__box h1 {
+        text-align: center;
+        font: normal normal 800 32px/75px Gilroy;
+    }
+}

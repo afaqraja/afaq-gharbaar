@@ -1,0 +1,59 @@
+.get__schedule{
+    .wrapper{
+        padding-bottom:87px;
+    }
+    padding-top:80px;
+    h3{
+        font-size:24px;
+        color:#08083D;
+        font-weight: bolder;
+    }
+    h1{
+        font-size:50px;
+        font: normal normal 800 50px/65px roboto;
+        letter-spacing: 0px;
+        color: #08083D;
+        opacity: 1;
+        font-weight:bolder;
+    }
+    .secondary__title{
+        margin-bottom:50px;
+    }
+    .schedule__btn{
+        width:320px;
+        height:80px;
+        border:none;
+        border-radius:100px;
+        color:#fff;
+        background:hsla(145, 71%, 47%, 1);
+        font-family: roboto,sans-serif;
+        font-size: 24px;
+        font-weight:bold;
+        margin-bottom:81px;
+        box-shadow: 0px 8px 8px #23CE6B80;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .get__schedule{
+        
+        text-align: center;
+        h1{
+            font-size:32px;
+            line-height:43px;
+            font-weight:800;
+        }
+        .main__title{
+            font-size:18px;
+        }
+        .wrapper{
+          text-align: center; 
+          padding-bottom:0px;
+        }
+        .schedule__btn{
+            padding:10px 35px;
+        }
+    }
+}
+
+
